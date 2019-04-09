@@ -16,7 +16,7 @@ public class InMemoryTimeEntryRepositoryTest {
         InMemoryTimeEntryRepository repo = new InMemoryTimeEntryRepository();
 
         long projectId = 123L;
-        long userId = 456L;
+        long userId  = 456L;
         TimeEntry createdTimeEntry = repo.create(new TimeEntry(projectId, userId, LocalDate.parse("2017-01-08"), 8));
 
         long timeEntryId = 1L;

@@ -1,4 +1,4 @@
-package io.pivotal.pal.tracker;
+package test.pivotal.pal.tracker;
 
 import org.junit.Test;
 
